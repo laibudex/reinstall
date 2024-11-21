@@ -4985,7 +4985,7 @@ trans() {
 
     # 先检查 modloop 是否正常
     # 防止格式化硬盘后，缺少 ext4 模块导致 mount 失败
-    # https://github.com/bin456789/reinstall/issues/136
+    # https://github.com/laibudex/reinstall/issues/136
     ensure_service_started modloop
 
     cat /proc/cmdline
