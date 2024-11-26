@@ -3804,8 +3804,10 @@ elif is_alpine_live; then
     echo 'Reboot to start Alpine Live OS.'
 elif is_use_dd; then
     echo 'Reboot to start DD.'
+    reboot
 else
     echo "Reboot to start the installation."
+    reboot
 fi
 
 if is_in_windows; then
