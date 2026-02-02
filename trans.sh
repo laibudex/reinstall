@@ -4583,7 +4583,7 @@ install_windows() {
             region=cn-hangzhou
 
             # download https://windows-driver-$region.oss-$region.aliyuncs.com/virtio/AliyunVirtio_WIN$aliyun_sys.zip $drv/AliyunVirtio.zip
-            download https://github.com/laibudex/reinstall/blob/main/driver/AliyunVirtio_WIN2012R2.zip $drv/AliyunVirtio.zip
+            download https://raw.githubusercontent.com/laibudex/reinstall/main/driver/AliyunVirtio_WIN2012R2.zip $drv/AliyunVirtio.zip
             unzip -o -d $drv $drv/AliyunVirtio.zip
 
             apk add innoextract
